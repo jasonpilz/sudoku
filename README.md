@@ -41,7 +41,11 @@ Valid
 
 ## Usage
 
-Run ``
+From project root
+
+```sh
+bin/sudoku
+```
 
 ## Implementation
 
@@ -79,3 +83,5 @@ Individual 'rules' of [Sudoku](https://en.wikipedia.org/wiki/Sudoku) are validat
     [7, 8, 9, 7, 8, 9, 7, 8, 9],
     [7, 8, 9, 7, 8, 9, 7, 8, 9]]
 ```
+
+These are then concatenated and each one sorted before ran through a validation to assert they are `== [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]`.

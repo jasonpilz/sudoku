@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative 'sudoku/board'
-require 'pry'
+require_relative '../lib/sudoku/board'
 
 squared = 9
 
