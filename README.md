@@ -47,6 +47,12 @@ From project root
 bin/sudoku
 ```
 
+Tests:
+
+```sh
+rake test
+```
+
 ## Implementation
 
 Individual 'rules' of [Sudoku](https://en.wikipedia.org/wiki/Sudoku) are validated by generating an array of values for each individual row, column and sector -- where each set of values needs to include one each of 1-9.
